@@ -48,7 +48,7 @@ body{
 }
 .container{
     width: 100%;
-    padding:o 15px;
+    padding:0 15px;
     margin:0 auto;
 }
 
@@ -58,7 +58,7 @@ body{
     }
 }
 
-@media (min-width:76px){
+ @media (min-width:768px){
     .container{
         max-width: 720px;
     }
@@ -67,12 +67,16 @@ body{
     .container{
     max-width: 960px;
     }
-}
-@media (min-width:1200px){
+} 
+
+ @media (min-width:1200px){
     .container{
     max-width: 1152px;
     }
-}
+} 
+ 
+
+
 header.topbar{
     background: var(--secondary);
     color: var(--pure);
